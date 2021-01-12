@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+.input {
+  padding: 4px 24px;
+  border-radius: 4px;
+}
+
+.input-btn {
+  padding: 4px 24px;
+  border-radius: 4px;
+  background-color: skyblue;
+}
+
+#question, #answer{
+  border-left: 5px solid lightgrey;
+  font-size: 36px;
+}
+
+#question span {
+  margin-left: 10px;
+}
+
+#answer span {
+  margin-left: 10px;
+}
+
+#link {
+  font-size: 24px;
+  color: black;
+}
